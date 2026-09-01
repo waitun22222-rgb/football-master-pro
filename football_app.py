@@ -13,8 +13,9 @@ text = {
     "မြန်မာ": {
         "menu_title": "🛠️ စနစ်များ",
         "menu_1": "📊 ရလဒ်ခန့်မှန်းရန်",
-        "menu_2": "📝 ပျမ်းမျှဒေတာ တွက်ချက်ရန်",
-        "menu_3": "🌐 တိုက်ရိုက်ဂိုးရလဒ်နဲ့ဒေတာများရယူရန်",
+        "menu_2": "📈 ပေါက်ကြေးမှတ်တမ်း တွက်ချက်ရန်",
+        "menu_3": "📝 ပျမ်းမျှဒေတာ တွက်ချက်ရန်",
+        "menu_4": "🌐 တိုက်ရိုက်ဂိုးရလဒ်နဲ့ဒေတာများရယူရန်",
         "p1_title": "⚽ Football Master Pro",
         "p1_desc": "ဤ App သည် ဘောလုံးအသင်းများ၏ အရေးကြီးသော ပျမ်းမျှဒေတာများကို ပေါင်းစပ်တွက်ချက်ပြီး ရလဒ်နှင့် ပေါက်ကြေးများကို ခန့်မှန်းပေးသော App ဖြစ်ပါသည်။",
         "team_a_header": "🏠 အိမ်ကွင်းအသင်း",
@@ -37,24 +38,46 @@ text = {
         "prob_title": "⚽ ဂိုးရနိုင်ခြေ ရာခိုင်နှုန်းများ",
         "top_scores": "🏆 အဖြစ်နိုင်ဆုံး ဂိုးရလဒ်များ (ထိပ်ဆုံး ၃ ခု)",
         "pdf_btn": "📄 PDF ရလဒ်ဖိုင် ဒေါင်းလုဒ်လုပ်ရန်",
-        "p2_title": "📝 ပျမ်းမျှဒေတာ တွက်ချက်ခြင်း",
+        # Page 2 Translations
+        "p2_title": "📈 အသင်း၏ ပေါက်ကြေးနှင့် ဂိုးပေါင်း မှတ်တမ်း",
+        "p2_desc": "အသင်းတစ်သင်းချင်းစီ၏ နောက်ဆုံးပွဲစဉ်များတွင် ပေါက်ကြေးအောင်/ရှုံး နှင့် ဂိုးပေါင်းကြေး အောင်/ရှုံး များကို တွက်ချက်ရန်။",
+        "odds_guide_title": "📖 ပေါက်ကြေး ရှင်းလင်းချက်",
+        "odds_guide_desc": "• **Team Odds:** အသင်းနိုင်မှသာ ပေါက်ကြေးအောင် (WIN) မည်ဖြစ်ပြီး၊ သရေကျပါက ပေါက်ကြေးရှုံး (LOSS) ဟု သတ်မှတ်သည်။\n• **Over/Under:** သတ်မှတ်ထားသော ဂိုးပေါင်းလိုင်းနှင့် တိုက်ဆိုင်စစ်ဆေးပေးသည်။",
+        "team_form_name": "အသင်းနာမည် ( Team Name )",
+        "matches_count": "ကစားခဲ့သော ပွဲအရေအတွက် (+/- ဖြင့် ချိန်ရန်)",
+        "match_record_exp": "ပွဲစဉ်",
+        "gf_label": "သွင်းဂိုး (GF)",
+        "ga_label": "ပေးဂိုး (GA)",
+        "team_odds": "ပေါက်ကြေး (Odds)",
+        "actual_ou": "ဂိုးပေါင်းလိုင်း (O/U Line)",
+        "btn_calc_form": "📈 ပေါက်ကြေးမှတ်တမ်း တွက်ချက်မည်",
+        "form_results": "📊 ပေါက်ကြေးနှင့် ဂိုးပေါင်း အောင်မြင်မှု ရလဒ်များ",
+        "ah_win_rate": "ပေါက်ကြေးအောင်မြင်မှု ရာခိုင်နှုန်း (Odds Win Rate)",
+        "ou_over_rate": "အိုဗာ (Over) ရာခိုင်နှုန်း",
+        "ou_under_rate": "အန်ဒါ (Under) ရာခိုင်နှုန်း",
+        "match_breakdown_title": "📋 ပွဲစဉ်တစ်ခုချင်းအလိုက် အောင်/ရှုံး ရလဒ်များ",
+        "pdf_form_btn": "📄 ပေါက်ကြေးမှတ်တမ်း PDF ရလဒ်ဖိုင် ထုတ်ရန်",
+        # Page 3 Translations
+        "p3_title": "📝 ပျမ်းမျှဒေတာ တွက်ချက်ခြင်း",
         "matches_input": "Matches / ပွဲအရေအတွက်",
         "match_exp": "Match / ပွဲစဉ်",
         "btn_avg": "ပျမ်းမျှဒေတာ တွက်မည်",
         "success_msg": "✅ Success / ပြီးစီးပါပြီ",
-        "p3_title": "🌐 တိုက်ရိုက်ဂိုးရလဒ်နဲ့ဒေတာများရယူရန်",
-        "p3_sub1": "1️⃣ အသင်းများ၏ အသေးစိတ် Data ကို ရှာရန်",
+        # Page 4 Translations
+        "p4_title": "🌐 တိုက်ရိုက်ဂိုးရလဒ်နဲ့ဒေတာများရယူရန်",
+        "p4_sub1": "1️⃣ အသင်းများ၏ အသေးစိတ် Data ကို ရှာရန်",
         "search_label": "🔍 အသင်းနာမည် ရိုက်ထည့်ပါ (ဥပမာ - Arsenal, Chelsea)",
         "btn_search": "ရှာဖွေရန်လင့်ခ်များ ထုတ်ပေးပါ",
         "search_res": "၏ Data များကို အောက်ပါ ဝက်ဘ်ဆိုက်များတွင် အလွယ်တကူ နှိပ်၍ ကြည့်နိုင်ပါသည် -",
-        "p3_sub2": "2️⃣ 🔴 Live Scores (တိုက်ရိုက်ပွဲစဉ်များ)",
+        "p4_sub2": "2️⃣ 🔴 Live Scores (တိုက်ရိုက်ပွဲစဉ်များ)",
         "warning": "⚠️ **သတိပေးချက်** - ဤ App သည် သင်္ချာနည်းကျ ဒေတာခန့်မှန်းတွက်ချက်မှု သက်သက်သာ ဖြစ်ပါသည်။ လောင်းကစားပြုလုပ်ရန်အတွက် အသုံးပြုမည်ဆိုပါက သေချာသော ငွေကြေးစီမံခန့်ခွဲမှု ပြုလုပ်ရန် တိုက်တွန်းအပ်ပါသည်။"
     },
     "English": {
         "menu_title": "🛠️ Tools",
         "menu_1": "📊 Predict Result",
-        "menu_2": "📝 Calculate Averages",
-        "menu_3": "🌐 Live Scores & Fetch Data",
+        "menu_2": "📈 Team Form & Odds Record",
+        "menu_3": "📝 Calculate Averages",
+        "menu_4": "🌐 Live Scores & Fetch Data",
         "p1_title": "⚽ Football Master Pro",
         "p1_desc": "This app predicts the match result and betting odds by calculating key average statistics.",
         "team_a_header": "🏠 Home Team",
@@ -77,17 +100,38 @@ text = {
         "prob_title": "⚽ Goal Probabilities",
         "top_scores": "🏆 Top 3 Most Likely Scores",
         "pdf_btn": "📄 Download PDF Report",
-        "p2_title": "📝 Data Calculator (Averages)",
+        # Page 2 Translations
+        "p2_title": "📈 Team Form & Betting Odds Record",
+        "p2_desc": "Calculate Odds Win/Loss and Over/Under results side by side for each match.",
+        "odds_guide_title": "📖 Odds & Results Guide",
+        "odds_guide_desc": "• **Team Odds:** The team must win to cover the odds. A draw results in a loss.\n• **Over/Under:** Compares total match goals against the line.",
+        "team_form_name": "Team Name",
+        "matches_count": "Number of Matches (Use +/- to adjust)",
+        "match_record_exp": "Match",
+        "gf_label": "Goals For (GF)",
+        "ga_label": "Goals Against (GA)",
+        "team_odds": "Team Odds",
+        "actual_ou": "Over/Under Line",
+        "btn_calc_form": "📈 Calculate Odds Record",
+        "form_results": "📊 Summary Results",
+        "ah_win_rate": "Odds Win Rate",
+        "ou_over_rate": "Over Rate",
+        "ou_under_rate": "Under Rate",
+        "match_breakdown_title": "📋 Match-by-Match Results",
+        "pdf_form_btn": "📄 Download Odds Record PDF",
+        # Page 3 Translations
+        "p3_title": "📝 Data Calculator (Averages)",
         "matches_input": "Number of Matches",
         "match_exp": "Match",
         "btn_avg": "Calculate Averages",
         "success_msg": "✅ Calculation Successful",
-        "p3_title": "🌐 Live Scores & Fetch Data",
-        "p3_sub1": "1️⃣ Find Detailed Team Data",
+        # Page 4 Translations
+        "p4_title": "🌐 Live Scores & Fetch Data",
+        "p4_sub1": "1️⃣ Find Detailed Team Data",
         "search_label": "🔍 Enter Team Name (e.g. Arsenal, Chelsea)",
         "btn_search": "Generate Search Links",
         "search_res": "data can be viewed easily via the following websites:",
-        "p3_sub2": "2️⃣ 🔴 Live Scores",
+        "p4_sub2": "2️⃣ 🔴 Live Scores",
         "warning": "⚠️ **DISCLAIMER:** This app provides purely mathematical estimations. Strict bankroll management is recommended if used for betting."
     }
 }
@@ -134,7 +178,7 @@ def calculate_betting_lines(a_xg, b_xg, team_a, team_b):
     
     return fav, ah_str, ou_str
 
-# --- PDF ဖန်တီးသည့် စနစ် ---
+# --- PDF ဖန်တီးသည့် စနစ် (Predictor အတွက်) ---
 def create_pdf_report(team_a, team_b, a_xg, b_xg, fav, ah_str, ou_str, top_scores):
     pdf = FPDF()
     pdf.add_page()
@@ -176,6 +220,37 @@ def create_pdf_report(team_a, team_b, a_xg, b_xg, fav, ah_str, ou_str, top_score
     os.remove(tmp.name)
     return pdf_bytes
 
+# --- PDF ဖန်တီးသည့် စနစ် (ပေါက်ကြေးမှတ်တမ်း အတွက် - အင်္ဂလိပ်စာသားသီးသန့်) ---
+def create_form_pdf_report(team_name, win_pct, over_pct, under_pct, match_details):
+    pdf = FPDF()
+    pdf.add_page()
+    
+    pdf.set_font("Arial", 'B', 16)
+    pdf.cell(200, 10, txt="Team Form & Odds Summary Report", ln=True, align='C')
+    pdf.ln(10)
+    
+    pdf.set_font("Arial", 'B', 12)
+    pdf.cell(200, 10, txt=f"Team: {team_name}", ln=True)
+    pdf.set_font("Arial", '', 11)
+    pdf.cell(200, 8, txt=f"Odds Win Rate: {win_pct:.1f}%", ln=True)
+    pdf.cell(200, 8, txt=f"Over Rate: {over_pct:.1f}% | Under Rate: {under_pct:.1f}%", ln=True)
+    pdf.ln(5)
+    
+    pdf.set_font("Arial", 'B', 12)
+    pdf.cell(200, 10, txt="Match-by-Match Results:", ln=True)
+    pdf.set_font("Arial", '', 10)
+    
+    for m in match_details:
+        row_text = f"Match {m['match']} | Score: {m['score']} | Odds ({m['odds']}): {m['odds_res_en']} | O/U ({m['ou_line']}): {m['ou_res_en']}"
+        pdf.cell(200, 8, txt=row_text, ln=True)
+        
+    with tempfile.NamedTemporaryFile(delete=False, suffix=".pdf") as tmp:
+        pdf.output(tmp.name)
+        with open(tmp.name, "rb") as f:
+            pdf_bytes = f.read()
+    os.remove(tmp.name)
+    return pdf_bytes
+
 # ==========================================
 # Web App UI & Sidebar Navigation
 # ==========================================
@@ -185,7 +260,7 @@ lang = st.sidebar.selectbox("🌐 Language / ဘာသာစကား", ["မြ
 t = text[lang]
 
 st.sidebar.title(t["menu_title"])
-menu = st.sidebar.radio("", [t["menu_1"], t["menu_2"], t["menu_3"]])
+menu = st.sidebar.radio("", [t["menu_1"], t["menu_2"], t["menu_3"], t["menu_4"]])
 st.sidebar.divider()
 st.sidebar.warning(t["warning"])
 
@@ -258,15 +333,11 @@ if menu == t["menu_1"]:
                 </div>
                 <hr style="border-top: 1px dashed #777; margin: 10px 0;">
                 <div style="display: flex; justify-content: space-between; font-size: 18px;">
-                    <div style="width: 40%; text-align: left; color: white;">
-                        Over
-                    </div>
+                    <div style="width: 40%; text-align: left; color: white;">Over</div>
                     <div style="width: 20%; text-align: center; color: #ffcc00; font-weight: bold;">
                         {ou_str}
                     </div>
-                    <div style="width: 40%; text-align: right; color: white;">
-                        Under
-                    </div>
+                    <div style="width: 40%; text-align: right; color: white;">Under</div>
                 </div>
             </div>
             """, unsafe_allow_html=True
@@ -310,10 +381,111 @@ if menu == t["menu_1"]:
         )
 
 # ---------------------------------------------------------
-# စာမျက်နှာ ၂ - Data Calculator 
+# စာမျက်နှာ ၂ - ပေါက်ကြေးမှတ်တမ်း တွက်ချက်ရန် (Team Form & Odds Record)
 # ---------------------------------------------------------
 elif menu == t["menu_2"]:
     st.title(t["p2_title"])
+    st.markdown(t["p2_desc"])
+    
+    # 📖 Odds Guide Box
+    with st.expander(t["odds_guide_title"], expanded=True):
+        st.markdown(t["odds_guide_desc"])
+        
+    st.divider()
+
+    team_name_form = st.text_input(t["team_form_name"], value="Team X")
+    num_matches = st.number_input(t["matches_count"], min_value=1, max_value=38, value=10, step=1)
+
+    match_details_list = []
+    odds_wins, odds_losses = 0, 0
+    over_count, under_count = 0, 0
+
+    for i in range(num_matches):
+        with st.expander(f"{t['match_record_exp']} {i+1}"):
+            c1, c2, c3, c4 = st.columns(4)
+            gf = c1.number_input(t["gf_label"], min_value=0, max_value=10, value=1, key=f"gf_{i}")
+            ga = c2.number_input(t["ga_label"], min_value=0, max_value=10, value=1, key=f"ga_{i}")
+            team_odds = c3.number_input(t["team_odds"], min_value=1.01, value=1.85, step=0.05, key=f"to_{i}")
+            ou_line = c4.number_input(t["actual_ou"], value=2.5, step=0.5, key=f"ou_{i}")
+
+            # 💡 တိကျမှန်ကန်သော အောင်/ရှုံး တွက်ချက်မှု (သရေကျပါက ရှုံးအဖြစ် သတ်မှတ်သည်)
+            if gf > ga:
+                odds_res = "✅ နိုင် (WIN)" if lang == "မြန်မာ" else "✅ WIN"
+                odds_res_en = "WIN"
+                odds_wins += 1
+            else:
+                odds_res = "❌ ရှုံး (LOSS)" if lang == "မြန်မာ" else "❌ LOSS"
+                odds_res_en = "LOSS"
+                odds_losses += 1
+
+            # O/U Calculation
+            total_match_goals = gf + ga
+            if total_match_goals > ou_line:
+                ou_res = "🔥 အိုဗာ (OVER)" if lang == "မြန်မာ" else "🔥 OVER"
+                ou_res_en = "OVER"
+                over_count += 1
+            elif total_match_goals < ou_line:
+                ou_res = "❄️ အန်ဒါ (UNDER)" if lang == "မြန်မာ" else "❄️ UNDER"
+                ou_res_en = "UNDER"
+                under_count += 1
+            else:
+                ou_res = "➖ လိုင်းတည့် (EXACT)" if lang == "မြန်မာ" else "➖ EXACT"
+                ou_res_en = "EXACT"
+
+            match_details_list.append({
+                "match": i + 1,
+                "score": f"{gf} - {ga}",
+                "odds": team_odds,
+                "odds_res": odds_res,
+                "odds_res_en": odds_res_en,
+                "ou_line": ou_line,
+                "ou_res": ou_res,
+                "ou_res_en": ou_res_en
+            })
+
+    st.divider()
+    if st.button(t["btn_calc_form"], type="primary"):
+        st.success(t["form_results"])
+        
+        total_odds_games = odds_wins + odds_losses
+        win_percentage = (odds_wins / total_odds_games) * 100 if total_odds_games > 0 else 0
+        over_percentage = (over_count / num_matches) * 100
+        under_percentage = (under_count / num_matches) * 100
+
+        col_res1, col_res2, col_res3 = st.columns(3)
+        col_res1.metric(t["ah_win_rate"], f"{win_percentage:.1f}%", f"Win: {odds_wins} | Loss: {odds_losses}")
+        col_res2.metric(t["ou_over_rate"], f"{over_percentage:.1f}%", f"Over: {over_count}/{num_matches}")
+        col_res3.metric(t["ou_under_rate"], f"{under_percentage:.1f}%", f"Under: {under_count}/{num_matches}")
+
+        st.divider()
+        st.subheader(t["match_breakdown_title"])
+        
+        for m in match_details_list:
+            st.markdown(
+                f"""
+                <div style="background-color: #333333; padding: 10px 15px; border-radius: 5px; margin-bottom: 8px; border-left: 4px solid #ffcc00; display: flex; justify-content: space-between; align-items: center;">
+                    <div><b>Match {m['match']}</b> | Score: <span style="color: #39ff14;">{m['score']}</span></div>
+                    <div>Odds ({m['odds']}): <b>{m['odds_res']}</b></div>
+                    <div>O/U ({m['ou_line']}): <b>{m['ou_res']}</b></div>
+                </div>
+                """, unsafe_allow_html=True
+            )
+
+        # 📄 ပေါက်ကြေးမှတ်တမ်း PDF Download Button (Error ကင်းရှင်းစေရန် အင်္ဂလိပ်စာသီးသန့်ဖြင့် ထုတ်ပေးသည်)
+        form_pdf_bytes = create_form_pdf_report(team_name_form, win_percentage, over_percentage, under_percentage, match_details_list)
+        st.download_button(
+            label=t["pdf_form_btn"],
+            data=form_pdf_bytes,
+            file_name=f"Team_Form_{team_name_form}.pdf",
+            mime="application/pdf",
+            type="primary"
+        )
+
+# ---------------------------------------------------------
+# စာမျက်နှာ ၃ - Data Calculator 
+# ---------------------------------------------------------
+elif menu == t["menu_3"]:
+    st.title(t["p3_title"])
     matches = st.number_input(t["matches_input"], min_value=1, max_value=20, value=5)
     
     total_goals, total_bc, total_sot, total_corners, total_pos = 0.0, 0.0, 0.0, 0.0, 0.0
@@ -336,12 +508,12 @@ elif menu == t["menu_2"]:
         r5.metric("Avg Possession", f"{total_pos / matches:.2f}")
 
 # ---------------------------------------------------------
-# စာမျက်နှာ ၃ - Live Scores & Quick Search Links
+# စာမျက်နှာ ၄ - Live Scores & Quick Search Links
 # ---------------------------------------------------------
-elif menu == t["menu_3"]:
-    st.title(t["p3_title"])
+elif menu == t["menu_4"]:
+    st.title(t["p4_title"])
     
-    st.subheader(t["p3_sub1"])
+    st.subheader(t["p4_sub1"])
     team_search = st.text_input(t["search_label"])
     
     if st.button(t["btn_search"], type="primary") and team_search:
@@ -357,5 +529,5 @@ elif menu == t["menu_3"]:
             st.markdown(f"[⚽ **Flashscore**](https://www.flashscore.com/search/?q={encoded_team})")
             
     st.divider()
-    st.subheader(t["p3_sub2"])
+    st.subheader(t["p4_sub2"])
     components.iframe("https://www.scorebat.com/embed/livescore/", height=700, scrolling=True)
