@@ -9,7 +9,7 @@ from datetime import datetime
 from fpdf import FPDF
 
 # ==========================================
-# ⚽ ၂၀၂૬/၂၀၂၇ ရာသီ ဥရောပ ထိပ်တန်းလိဂ် (၅) ခု၏ အသင်းစာရင်းအစစ်အမှန်များ
+# ⚽ ၂၀၂၆/၂၀၂၇ ရာသီ ဥရောပ ထိပ်တန်းလိဂ် (၅) ခု၏ အသင်းစာရင်းအစစ်အမှန်များ
 # ==========================================
 TOP_LEAGUES_TEAMS = {
     "English Premier League (2026/2027)": [
@@ -76,7 +76,7 @@ text = {
         "xg_res": "🎯 မျှော်မှန်းဂိုး (xG) :",
         "odds_pred": "📈 ပေါက်ကြေး ခန့်မှန်းချက်",
         "prob_title": "⚽ ဂိုးရနိုင်ခြေ ရာခိုင်နှုန်းများ",
-        "top_scores": "🏆 အဖြစ်နိုင်ဆုံး ဂိုးရလဒ်များ (ထိပ်ဆုံး ၃ ခု)",
+        "top_scores": "🏆 အဖြစ်နိုင်ဆုံး ဂိုးရလဒ်",
         "pdf_btn": "📄 PDF ရလဒ်ဖိုင် ဒေါင်းလုဒ်လုပ်ရန်",
         "auto_fetch_btn": "🤖 Auto Data ဆွဲယူ၍ တွက်ချက်မည်",
         "manual_btn": "✍️ ကိုယ်တိုင် ဒေတာထည့်သွင်းမည် (Manual)",
@@ -138,7 +138,7 @@ text = {
         "xg_res": "🎯 Expected Goals (xG) :",
         "odds_pred": "📈 Predicted Betting Odds",
         "prob_title": "⚽ Goal Probabilities",
-        "top_scores": "🏆 Top 3 Most Likely Scores",
+        "top_scores": "🏆 Most Likely Score",
         "pdf_btn": "📄 Download PDF Report",
         "auto_fetch_btn": "🤖 Auto Data Fetch & Predict",
         "manual_btn": "✍️ Manual Data Entry",
@@ -284,7 +284,7 @@ def create_pdf_report(team_a, team_b, a_xg, b_xg, fav, ah_str, ou_str, top_score
     pdf.cell(200, 10, txt=f"Total Goals: Over [ {ou_str} ] Under", ln=True)
     pdf.ln(5)
     pdf.set_font("Arial", 'B', 12)
-    pdf.cell(200, 10, txt="Top 3 Most Likely Scores:", ln=True)
+    pdf.cell(200, 10, txt="Most Likely Score:", ln=True)
     pdf.set_font("Arial", '', 12)
     for score in top_scores:
         pdf.cell(200, 10, txt=f"{score['eng_score']} - {score['probability']}%", ln=True)
@@ -415,12 +415,13 @@ if menu == t["menu_1"]:
                             prob = round((poisson_probability(a_xg, ag)/100) * (poisson_probability(b_xg, bg)/100) * 100, 2)
                             scores.append({"score": f"{data_a['name']} ({ag} - {bg}) {data_b['name']}", "eng_score": f"{data_a['name']} {ag}-{bg} {data_b['name']}", "probability": prob})
                     
-                    top_3 = sorted(scores, key=lambda x: x['probability'], reverse=True)[:3]
+                    # 💡 ဒီနေရာမှာ [:3] အစား [:1] လို့ ပြောင်းပေးလိုက်ပါတယ်
+                    top_1 = sorted(scores, key=lambda x: x['probability'], reverse=True)[:1]
                     st.subheader(t["top_scores"])
-                    for idx, ts in enumerate(top_3):
-                        st.info(f"**{idx+1}**. {ts['score']} : **{ts['probability']}%**")
+                    for ts in top_1:
+                        st.info(f"⚽ {ts['score']} : **{ts['probability']}%**")
 
-                    pdf_bytes = create_pdf_report(data_a['name'], data_b['name'], a_xg, b_xg, fav, ah_str, ou_str, top_3, selected_season, sample_matches)
+                    pdf_bytes = create_pdf_report(data_a['name'], data_b['name'], a_xg, b_xg, fav, ah_str, ou_str, top_1, selected_season, sample_matches)
                     st.download_button(label=t["pdf_btn"], data=pdf_bytes, file_name=f"Prediction_{data_a['name']}_vs_{data_b['name']}.pdf", mime="application/pdf", type="primary")
 
                 else:
@@ -499,12 +500,13 @@ if menu == t["menu_1"]:
                     prob = round((poisson_probability(a_xg, a_goals)/100) * (poisson_probability(b_xg, b_goals)/100) * 100, 2)
                     scores.append({"score": f"{team_a} ({a_goals} - {b_goals}) {team_b}", "eng_score": f"{team_a} {a_goals}-{b_goals} {team_b}", "probability": prob})
             
-            top_3 = sorted(scores, key=lambda x: x['probability'], reverse=True)[:3]
+            # 💡 ဒီနေရာမှာလည်း [:3] အစား [:1] ပြောင်းပေးထားပါတယ်
+            top_1 = sorted(scores, key=lambda x: x['probability'], reverse=True)[:1]
             st.subheader(t["top_scores"])
-            for idx, ts in enumerate(top_3):
-                st.info(f"**{idx+1}**. {ts['score']} : **{ts['probability']}%**")
+            for ts in top_1:
+                st.info(f"⚽ {ts['score']} : **{ts['probability']}%**")
                 
-            pdf_bytes = create_pdf_report(team_a, team_b, a_xg, b_xg, fav, ah_str, ou_str, top_3, "Manual", 5)
+            pdf_bytes = create_pdf_report(team_a, team_b, a_xg, b_xg, fav, ah_str, ou_str, top_1, "Manual", 5)
             st.download_button(label=t["pdf_btn"], data=pdf_bytes, file_name=f"Prediction_{team_a}_vs_{team_b}.pdf", mime="application/pdf", type="primary")
 
 # ---------------------------------------------------------
